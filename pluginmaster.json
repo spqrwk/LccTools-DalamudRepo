@@ -3,7 +3,7 @@
     "Author": "lcc",
     "Name": "LCC Tools",
     "InternalName": "lccTools",
-    "AssemblyVersion": "0.1.0.6",
+    "AssemblyVersion": "0.1.0.7",
     "Punchline": "LCC 的工具箱。",
     "Description": "LCC 的综合工具箱：提供游戏状态与悬停 ID 调试、自动复活和食物、PvP 好友雷达、分场景移动速度、按角色隔离的物品收录，以及带缓存、成交历史和众包上传的 Universalis 市场查询。",
     "ApplicableVersion": "any",
@@ -23,7 +23,7 @@
     "IsHide": false,
     "IsTestingExclusive": false,
     "DownloadCount": 0,
-    "LastUpdate": 1787429256,
-    "Changelog": "新增插件版本强制校验：普通机器仅在当前版本等于服务端最新版本时允许激活；主界面左侧新增当前版本、最新版本、游戏状态和激活状态显示，版本一致为绿色、不一致为红色；DevCode 保持不受版本、机器登记或网络状态约束。"
+    "LastUpdate": 1787431623,
+    "Changelog": "修复混淆版无法持久化用户配置的问题：功能开关、角色设置、投影台缓存和 DevCode 现在可在插件更新、重载及游戏重启后正确保留；发布构建新增 Dalamud 配置序列化与反序列化往返检查，防止配置契约再次被混淆破坏。"
   }
 ]
