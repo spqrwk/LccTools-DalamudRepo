@@ -3,7 +3,7 @@
     "Author": "lcc",
     "Name": "LCC Tools",
     "InternalName": "lccTools",
-    "AssemblyVersion": "0.1.0.2",
+    "AssemblyVersion": "0.1.0.3",
     "Punchline": "LCC 的工具箱。",
     "Description": "LCC 的综合工具箱：提供游戏状态与悬停 ID 调试、自动复活和食物、PvP 好友雷达、分场景移动速度、按角色隔离的物品收录，以及带缓存、成交历史和众包上传的 Universalis 市场查询。",
     "ApplicableVersion": "any",
@@ -23,7 +23,7 @@
     "IsHide": false,
     "IsTestingExclusive": false,
     "DownloadCount": 0,
-    "LastUpdate": 1787418047,
-    "Changelog": "新增在线激活与 DevCode 本机旁路；优化物品收录的分类懒加载、任务链阶段进度与最终装备预览；完善按角色配置隔离、市场查询入口和界面交互；修复自动食物倒计时重复触发及多项兼容性问题。"
+    "LastUpdate": 1787419469,
+    "Changelog": "严格机器码改为点击即可复制的只读输入框；修复混淆后激活查询与服务器连通性测试因 JSON DTO 构造元数据被重命名而反序列化失败的问题。"
   }
 ]
