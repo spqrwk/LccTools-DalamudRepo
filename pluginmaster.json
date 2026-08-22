@@ -3,7 +3,7 @@
     "Author": "lcc",
     "Name": "LCC Tools",
     "InternalName": "lccTools",
-    "AssemblyVersion": "0.1.0.4",
+    "AssemblyVersion": "0.1.0.5",
     "Punchline": "LCC 的工具箱。",
     "Description": "LCC 的综合工具箱：提供游戏状态与悬停 ID 调试、自动复活和食物、PvP 好友雷达、分场景移动速度、按角色隔离的物品收录，以及带缓存、成交历史和众包上传的 Universalis 市场查询。",
     "ApplicableVersion": "any",
@@ -23,7 +23,7 @@
     "IsHide": false,
     "IsTestingExclusive": false,
     "DownloadCount": 0,
-    "LastUpdate": 1787423478,
-    "Changelog": "物品收录新增按角色 CID 持久化投影台快照，后续登录无需重复打开投影台，并在再次加载时自动覆盖缓存；面部配饰目录过滤仍残留在数据表但已从当前游戏内容移除的旧条目。"
+    "LastUpdate": 1787424702,
+    "Changelog": "修复并完整重做自动食物逻辑；新增自动修理、自定义视距、真实排队位置和自动反屏蔽词；重新整理战斗与系统便利分类；新增悬浮按钮显示开关；移动速度和自定义视距仅在账号激活后生效。"
   }
 ]
