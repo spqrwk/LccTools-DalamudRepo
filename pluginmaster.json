@@ -3,7 +3,7 @@
     "Author": "lcc",
     "Name": "LCC Tools",
     "InternalName": "lccTools",
-    "AssemblyVersion": "0.1.1.3",
+    "AssemblyVersion": "0.1.1.4",
     "Punchline": "LCC 的工具箱。",
     "Description": "LCC 的综合工具箱：提供游戏状态与悬停 ID 调试、自动复活和食物、PvP 好友雷达、分场景移动速度、按角色隔离的物品收录，以及带缓存、成交历史和众包上传的 Universalis 市场查询。",
     "ApplicableVersion": "any",
@@ -23,7 +23,7 @@
     "IsHide": false,
     "IsTestingExclusive": false,
     "DownloadCount": 0,
-    "LastUpdate": 1787593729,
-    "Changelog": "新增真实排队位置、聊天与招募反屏蔽、自动 QTE、姓名板图标调整、PvP K头模式与敌方蓝量估算；新增潜艇返航邮件提醒；优化物品收录的分类懒加载、任务链进度、投影台快照与市场查询入口，并完善按角色配置和激活状态显示。"
+    "LastUpdate": 1787595929,
+    "Changelog": "激活成功后每 5 小时自动重新验证，过期、版本不符、被 Ban 或验证失败时立即停止受限功能；K头模式改为仅 DevCode 可用，并在界面与文档中补充普通激活和 DevCode 功能的可用条件。"
   }
 ]
