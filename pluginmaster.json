@@ -3,7 +3,7 @@
     "Author": "lcc",
     "Name": "LCC Tools",
     "InternalName": "lccTools",
-    "AssemblyVersion": "0.1.0.7",
+    "AssemblyVersion": "0.1.0.8",
     "Punchline": "LCC 的工具箱。",
     "Description": "LCC 的综合工具箱：提供游戏状态与悬停 ID 调试、自动复活和食物、PvP 好友雷达、分场景移动速度、按角色隔离的物品收录，以及带缓存、成交历史和众包上传的 Universalis 市场查询。",
     "ApplicableVersion": "any",
@@ -23,7 +23,7 @@
     "IsHide": false,
     "IsTestingExclusive": false,
     "DownloadCount": 0,
-    "LastUpdate": 1787431623,
-    "Changelog": "修复混淆版无法持久化用户配置的问题：功能开关、角色设置、投影台缓存和 DevCode 现在可在插件更新、重载及游戏重启后正确保留；发布构建新增 Dalamud 配置序列化与反序列化往返检查，防止配置契约再次被混淆破坏。"
+    "LastUpdate": 1787540611,
+    "Changelog": "新增潜水艇返航邮件提醒：插件检测返航时间后经 Cloudflare 中转到用户部署的 Google Apps Script，由 Gmail 定时发送且支持请求去重；激活系统新增 30 天有效期、延期/缩短/永久管理，并支持机器码或加密 CID 双维度激活与独立 Ban；机器码和 CID 可在插件内点击复制。修复混淆可能重命名邮件中转 JSON 字段的问题，并新增潜水艇配置混淆往返检查。"
   }
 ]
