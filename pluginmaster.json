@@ -3,7 +3,7 @@
     "Author": "lcc",
     "Name": "LCC Tools",
     "InternalName": "lccTools",
-    "AssemblyVersion": "0.1.1.2",
+    "AssemblyVersion": "0.1.1.3",
     "Punchline": "LCC 的工具箱。",
     "Description": "LCC 的综合工具箱：提供游戏状态与悬停 ID 调试、自动复活和食物、PvP 好友雷达、分场景移动速度、按角色隔离的物品收录，以及带缓存、成交历史和众包上传的 Universalis 市场查询。",
     "ApplicableVersion": "any",
@@ -23,7 +23,7 @@
     "IsHide": false,
     "IsTestingExclusive": false,
     "DownloadCount": 0,
-    "LastUpdate": 1787544359,
-    "Changelog": "修复潜艇邮件中转因 Cloudflare 不支持 redirect=error 导致的 HTTP 500；潜艇管理界面增加从客户端 WorkshopTerritory 数据直接读取返航时间的兜底，/lccsub 不再仅依赖 Hook 缓存。"
+    "LastUpdate": 1787593729,
+    "Changelog": "新增真实排队位置、聊天与招募反屏蔽、自动 QTE、姓名板图标调整、PvP K头模式与敌方蓝量估算；新增潜艇返航邮件提醒；优化物品收录的分类懒加载、任务链进度、投影台快照与市场查询入口，并完善按角色配置和激活状态显示。"
   }
 ]
