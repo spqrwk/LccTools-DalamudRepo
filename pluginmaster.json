@@ -3,7 +3,7 @@
     "Author": "lcc",
     "Name": "LCC Tools",
     "InternalName": "lccTools",
-    "AssemblyVersion": "0.1.0.10",
+    "AssemblyVersion": "0.1.0.11",
     "Punchline": "LCC 的工具箱。",
     "Description": "LCC 的综合工具箱：提供游戏状态与悬停 ID 调试、自动复活和食物、PvP 好友雷达、分场景移动速度、按角色隔离的物品收录，以及带缓存、成交历史和众包上传的 Universalis 市场查询。",
     "ApplicableVersion": "any",
@@ -23,7 +23,7 @@
     "IsHide": false,
     "IsTestingExclusive": false,
     "DownloadCount": 0,
-    "LastUpdate": 1787541296,
-    "Changelog": "修复重开游戏或热更新插件时悬浮窗可能先按默认值重新出现的问题：角色配置现在会先加载，再同步悬浮窗显示状态，未登录角色时不再默认显示；发布检查新增悬浮窗关闭状态的混淆后保存、反序列化与角色重新激活往返测试，防止配置持久化回归。"
+    "LastUpdate": 1787541987,
+    "Changelog": "简化潜水艇返航邮件配置：用户现在只需启用功能并填写接收邮箱；Apps Script 地址和共享密钥已迁移到 LCC Cloudflare 服务端加密配置，不再显示、下发或保存在插件角色配置中。"
   }
 ]
