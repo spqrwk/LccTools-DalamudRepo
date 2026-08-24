@@ -3,7 +3,7 @@
     "Author": "lcc",
     "Name": "LCC Tools",
     "InternalName": "lccTools",
-    "AssemblyVersion": "0.1.1.0",
+    "AssemblyVersion": "0.1.1.1",
     "Punchline": "LCC 的工具箱。",
     "Description": "LCC 的综合工具箱：提供游戏状态与悬停 ID 调试、自动复活和食物、PvP 好友雷达、分场景移动速度、按角色隔离的物品收录，以及带缓存、成交历史和众包上传的 Universalis 市场查询。",
     "ApplicableVersion": "any",
@@ -23,7 +23,7 @@
     "IsHide": false,
     "IsTestingExclusive": false,
     "DownloadCount": 0,
-    "LastUpdate": 1787542448,
-    "Changelog": "新增自动 QTE：仅在游戏窗口位于前台时自动处理四类 QTE；新增姓名板图标调整：支持按角色设置图标缩放与 X/Y 偏移；新增 /lccsub 命令，可立即扫描最近读取到的潜艇返航时间并补建尚未提交的定时邮件，避免启用邮件功能前已出航的潜艇漏提醒。发布检查同步覆盖新模块配置持久化及混淆后的 Windows API 入口。"
+    "LastUpdate": 1787542886,
+    "Changelog": "PvP 好友雷达改为按角色名和所属服务器匹配；每次登录请求一次好友列表并缓存，加好友或删好友后自动同步缓存。"
   }
 ]
