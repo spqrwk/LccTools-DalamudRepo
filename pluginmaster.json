@@ -3,7 +3,7 @@
     "Author": "lcc",
     "Name": "LCC Tools",
     "InternalName": "lccTools",
-    "AssemblyVersion": "0.1.1.4",
+    "AssemblyVersion": "0.1.1.5",
     "Punchline": "LCC 的工具箱。",
     "Description": "LCC 的综合工具箱：提供游戏状态与悬停 ID 调试、自动复活和食物、PvP 好友雷达、分场景移动速度、按角色隔离的物品收录，以及带缓存、成交历史和众包上传的 Universalis 市场查询。",
     "ApplicableVersion": "any",
@@ -23,7 +23,7 @@
     "IsHide": false,
     "IsTestingExclusive": false,
     "DownloadCount": 0,
-    "LastUpdate": 1787595929,
-    "Changelog": "激活成功后每 5 小时自动重新验证，过期、版本不符、被 Ban 或验证失败时立即停止受限功能；K头模式改为仅 DevCode 可用，并在界面与文档中补充普通激活和 DevCode 功能的可用条件。"
+    "LastUpdate": 1787823609,
+    "Changelog": "新增全插件实时广播：通过 Durable Object WebSocket 主动推送，并在角色登录后以收到私聊的样式展示；支持断线补收、消息去重和管理端发送历史。"
   }
 ]
