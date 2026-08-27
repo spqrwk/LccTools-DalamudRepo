@@ -3,7 +3,7 @@
     "Author": "lcc",
     "Name": "LCC Tools",
     "InternalName": "lccTools",
-    "AssemblyVersion": "0.1.1.7",
+    "AssemblyVersion": "0.1.1.8",
     "Punchline": "LCC 的工具箱。",
     "Description": "LCC 的综合工具箱：提供游戏状态与悬停 ID 调试、自动复活和食物、PvP 好友雷达、分场景移动速度、按角色隔离的物品收录，以及带缓存、成交历史和众包上传的 Universalis 市场查询。",
     "ApplicableVersion": "any",
@@ -23,7 +23,7 @@
     "IsHide": false,
     "IsTestingExclusive": false,
     "DownloadCount": 0,
-    "LastUpdate": 1787833811,
-    "Changelog": "升级发布保护：新增控制流混淆、字符串与常量加密，并强化符号重命名，提高反编译和篡改成本。"
+    "LastUpdate": 1787835095,
+    "Changelog": "紧急修复混淆兼容性：撤回会生成无效 IL 的控制流改写，恢复为稳定的 Obfuscar 混淆，修复打开插件界面时的 InvalidProgramException。"
   }
 ]
