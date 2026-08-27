@@ -3,7 +3,7 @@
     "Author": "lcc",
     "Name": "LCC Tools",
     "InternalName": "lccTools",
-    "AssemblyVersion": "0.1.1.8",
+    "AssemblyVersion": "0.1.1.9",
     "Punchline": "LCC 的工具箱。",
     "Description": "LCC 的综合工具箱：提供游戏状态与悬停 ID 调试、自动复活和食物、PvP 好友雷达、分场景移动速度、按角色隔离的物品收录，以及带缓存、成交历史和众包上传的 Universalis 市场查询。",
     "ApplicableVersion": "any",
@@ -23,7 +23,7 @@
     "IsHide": false,
     "IsTestingExclusive": false,
     "DownloadCount": 0,
-    "LastUpdate": 1787835095,
-    "Changelog": "紧急修复混淆兼容性：撤回会生成无效 IL 的控制流改写，恢复为稳定的 Obfuscar 混淆，修复打开插件界面时的 InvalidProgramException。"
+    "LastUpdate": 1787836765,
+    "Changelog": "修复插件完整性校验错误：改用 Dalamud 提供的实际插件安装路径计算 DLL SHA-256，避免授权有效却显示未激活。"
   }
 ]
