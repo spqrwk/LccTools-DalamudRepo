@@ -3,7 +3,7 @@
     "Author": "lcc",
     "Name": "LCC Tools",
     "InternalName": "lccTools",
-    "AssemblyVersion": "0.1.1.10",
+    "AssemblyVersion": "0.1.1.11",
     "Punchline": "LCC 的工具箱。",
     "Description": "LCC 的综合工具箱：提供游戏状态与悬停 ID 调试、自动复活和食物、PvP 好友雷达、分场景移动速度、按角色隔离的物品收录，以及带缓存、成交历史和众包上传的 Universalis 市场查询。",
     "ApplicableVersion": "any",
@@ -23,7 +23,7 @@
     "IsHide": false,
     "IsTestingExclusive": false,
     "DownloadCount": 0,
-    "LastUpdate": 1787852455,
-    "Changelog": "新增醒目的 Discord 自助激活入口，方便用户加入服务器并使用机器人完成激活。"
+    "LastUpdate": 1787934054,
+    "Changelog": "优化 PvP K头与机工士 LB 自动斩杀，加入战意、职业补正、护盾和防御冷却计算；修复 PvP 好友雷达匹配；隐藏未开放的自动 FATE 与自动街机入口。"
   }
 ]
