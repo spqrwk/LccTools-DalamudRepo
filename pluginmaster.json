@@ -3,7 +3,7 @@
     "Author": "lcc",
     "Name": "LCC Tools",
     "InternalName": "lccTools",
-    "AssemblyVersion": "0.1.2.2",
+    "AssemblyVersion": "0.1.2.3",
     "Punchline": "LCC 的工具箱。",
     "Description": "LCC 的综合工具箱：提供游戏状态与悬停 ID 调试、自动复活和食物、PvP 好友雷达、分场景移动速度、按角色隔离的物品收录，以及带缓存、成交历史和众包上传的 Universalis 市场查询。",
     "ApplicableVersion": "any",
@@ -23,7 +23,7 @@
     "IsHide": false,
     "IsTestingExclusive": false,
     "DownloadCount": 0,
-    "LastUpdate": 1788022563,
-    "Changelog": "优化机工士 PvP LB K头：按目标估算剩余 MP 每 2000 点预留一次自愈，最多预留两次；低于 2000 MP 不计算回血，避免空蓝目标被错误过滤。"
+    "LastUpdate": 1788712700,
+    "Changelog": "修复 K头模式关闭后自动选人未及时停用，并在狼狱停船场禁用自动选人；新增市场查询总开关，关闭后立即移除右键菜单入口；新增在线 WebSocket 查询诊断信息和连接日志。"
   }
 ]
