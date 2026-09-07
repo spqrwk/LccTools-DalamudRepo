@@ -3,7 +3,7 @@
     "Author": "lcc",
     "Name": "LCC Tools",
     "InternalName": "lccTools",
-    "AssemblyVersion": "0.1.2.3",
+    "AssemblyVersion": "0.1.2.4",
     "Punchline": "LCC 的工具箱。",
     "Description": "LCC 的综合工具箱：提供游戏状态与悬停 ID 调试、自动复活和食物、PvP 好友雷达、分场景移动速度、按角色隔离的物品收录，以及带缓存、成交历史和众包上传的 Universalis 市场查询。",
     "ApplicableVersion": "any",
@@ -23,7 +23,7 @@
     "IsHide": false,
     "IsTestingExclusive": false,
     "DownloadCount": 0,
-    "LastUpdate": 1788712700,
-    "Changelog": "修复 K头模式关闭后自动选人未及时停用，并在狼狱停船场禁用自动选人；新增市场查询总开关，关闭后立即移除右键菜单入口；新增在线 WebSocket 查询诊断信息和连接日志。"
+    "LastUpdate": 1788777474,
+    "Changelog": "K头模式自动选目标过滤实测的防御与无敌状态：防御、保护/无敌、骑士列阵、黑骑夜昏、武士地天、贤者中庸之道；同步更新模式说明。"
   }
 ]
