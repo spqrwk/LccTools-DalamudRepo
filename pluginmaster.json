@@ -3,7 +3,7 @@
     "Author": "lcc",
     "Name": "LCC Tools",
     "InternalName": "lccTools",
-    "AssemblyVersion": "0.1.2.4",
+    "AssemblyVersion": "0.1.2.5",
     "Punchline": "LCC 的工具箱。",
     "Description": "LCC 的综合工具箱：提供游戏状态与悬停 ID 调试、自动复活和食物、PvP 好友雷达、分场景移动速度、按角色隔离的物品收录，以及带缓存、成交历史和众包上传的 Universalis 市场查询。",
     "ApplicableVersion": "any",
@@ -23,7 +23,7 @@
     "IsHide": false,
     "IsTestingExclusive": false,
     "DownloadCount": 0,
-    "LastUpdate": 1788777474,
-    "Changelog": "K头模式自动选目标过滤实测的防御与无敌状态：防御、保护/无敌、骑士列阵、黑骑夜昏、武士地天、贤者中庸之道；同步更新模式说明。"
+    "LastUpdate": 1792857945,
+    "Changelog": "新增“I-Ching 复活版”并移植战场雷达、鼠标选中与集群、Y轴移动、深层迷宫保护、防击退及免坠落功能；PvP 好友雷达新增手动黑名单并以红色区分高亮，K头自动选中可优先好友或黑名单；修复自动修理在团灭复活、过场及其他不可操作状态下过早提交请求，改为状态稳定后重试；新增自动 FATE 功能并整理模块分类。"
   }
 ]
